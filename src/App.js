@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Hello!!!!
+          The text here has been changed.
         </p>
         <a
           className="App-link"
@@ -16,6 +16,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <p>
+        Not every line of text has to have a purpose.
+      </p>
     </div>
   );
 }
