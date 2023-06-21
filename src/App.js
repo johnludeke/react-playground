@@ -2,6 +2,8 @@ import './index.css';
 import Employee from './components/Employee';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
+
+import Navbar from './components/Navbar';
 import AddEmployee from './components/AddEmployee';
 import EditEmployee from './components/EditEmployee';
 
@@ -76,15 +78,11 @@ function App() {
   const showEmployees = true;
 
   return (
-    <div className="App">
+    <div className="App min-h-screen bg-gray-300">
+      <Navbar />
       {showEmployees ? (
         <>
-          <input type="text"
-            onChange={(e) => {
-              setRole(e.target.value);
-            }}
-          />
-          <div className="flex flex-wrap justify-center">
+          <div className="flex flex-wrap justify-center my-2">
             {employees.map((employee) => {
 
               const editEmployee = (
