@@ -47,7 +47,7 @@ function AddEmployee(props) {
                             </div>
                             <div className="md:w-2/3">
                                 <input
-                                    className="placeholder:text-slate-400 placeholder:italic bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                    className="placeholder:text-slate-400 placeholder:italic bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-2.5 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                     id="name"
                                     placeholder="John Smith"
                                     type="text"
@@ -66,7 +66,7 @@ function AddEmployee(props) {
                             </div>
                             <div className="md:w-2/3">
                                 <input
-                                    className="placeholder:text-slate-400 placeholder:italic bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                    className="placeholder:text-slate-400 placeholder:italic bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-2.5 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                     id="role"
                                     placeholder="Software Developer"
                                     type="text"
@@ -85,7 +85,7 @@ function AddEmployee(props) {
                             </div>
                             <div className="md:w-2/3">
                                 <input
-                                    className="placeholder:text-slate-400 placeholder:italic bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                                    className="placeholder:text-slate-400 placeholder:italic bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-2.5 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
                                     id="img"
                                     placeholder="https://images.pexels.com/"
                                     type="text"
